@@ -3,6 +3,22 @@ languageCode: ko-kr
 title: CheatSheet
 theme: yinyang
 defaultContentLanguage: ko
+
+googleAnalytics: G-6N960D3L1W
+
+enableEmoji: true
+enableRobotsTXT: true
+hasCJKLanguage: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+  section:
+    - HTML
+    - RSS
+
+
 markup:
   goldmark:
     renderer:
@@ -15,6 +31,8 @@ markup:
 author:
   name: Changhoi
   homepage: 'https://cheetsheat.changhoi.kim/'
+
+languageCode: ko
 languages:
   ko:
     languageName: KO
@@ -37,6 +55,8 @@ params:
 
       gtag('config', 'G-6N960D3L1W');
     </script>
+  description:
+    Software Engineering Cheat Sheet
   socials:
     - name: 📝 Blog
       link: 'https://changhoi.kim'
