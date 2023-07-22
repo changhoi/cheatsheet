@@ -1,0 +1,6 @@
+[submodule "themes/tract"]
+	path = themes/tract
+	url = https://github.com/tract-docs/tract
+[submodule "themes/yinyang"]
+	path = themes/yinyang
+	url = https://github.com/joway/hugo-theme-yinyang

@@ -1,0 +1,46 @@
+baseURL: 'https://cheatsheet.changhoi.kim/'
+languageCode: ko-kr
+title: CheatSheet
+theme: yinyang
+defaultContentLanguage: ko
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    guessSyntax: true
+    noClasses: true
+    style: dracula
+    tabWidth: 2
+author:
+  name: Changhoi
+  homepage: 'https://cheetsheat.changhoi.kim/'
+languages:
+  ko:
+    languageName: KO
+    weight: 1
+  en:
+    contentDir: content/en
+    languageName: EN
+    weight: 2
+params:
+  mainSections:
+    - posts
+  headTitle: Cheat Sheet
+  extraHead: >-
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6N960D3L1W"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6N960D3L1W');
+    </script>
+  socials:
+    - name: 📝 Blog
+      link: 'https://changhoi.kim'
+    - name: 🤔 💭 Brain
+      link: 'https://brain.changhoi.kim'
+    - name: 🧑‍💻 Github
+      link: 'https://github.com/changhoi'
